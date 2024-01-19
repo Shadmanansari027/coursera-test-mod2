@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <header>
+        <h1>Admission Form</h1>
+    </header>
+    <hr>
+    <header>
+        <h1>Xavier Universities Of California</h1>
+        <p>-Please provide all details below-</p>
+    </header>
+    <hr>
+    <div class="warning-line">Admission closed on 10 February 2024. Apply Fast.</div>
+    <br>
+    <br>
+    <form>
+        <section id="studentdetail">
+            <fieldset>
+                <legend>Student Information</legend>
+                <label for="fname">First Name :</label>
+                <input type="text" id="fname" class="fname" placeholder="First Name">
+                <br>
+                <br>
+                <label for="lname">Last Name :</label>
+                <input type="text" id="lname" class="lname" placeholder="Last Name">
+                <br>
+                <br>
+                <section id="gender">
+                    <label>Gender : </label>
+                    <input type="radio" name="Gender" value="Male">Male
+                    <input type="radio" name="Gender" value="Female">Female
+                    <input type="radio" name="Gender" value="Other">Other
+                </section>
+                <br>
+                <br>
+                <label for="father">Father Name :</label>
+                <input type="text" id="father" class="father" placeholder="Father Name">
+                <br>
+                <br>
+                <label for="Mother">Mother Name :</label>
+                <input type="text" id="Mother" class="Mother" placeholder="Mother Name">
+                <br>
+                <br>
+                <label for="Address">Address :</label>
+                <textarea name="Address" id="Address" cols="25" rows="3"
+                    placeholder="00, petenson street, maryland, california"></textarea>
+                <br>
+                <br>
+                <label for="city">City :</label>
+                <select name="city" id="city">
+                    <option>--Choose From Here--</option>
+                    <option value="agra">Agra</option>
+                    <option value="bareily">Bareily</option>
+                    <option value="bindki">Bindki</option>
+                    <option value="chatarpur">Chatarpur</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="fatehpur">Fatehpur</option>
+                    <option value="gurgaon">Gurgaon</option>
+                    <option value="itawa">Itawa</option>
+                </select>
+                <br>
+                <br>
+                <label for="state">State :</label>
+                <select name="state" id="state">
+                    <option>--Choose From Here--</option>
+                    <option value="uttarpradesh">Uttar Pradesh</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="madhyapradesh">Madhya Pradesh</option>
+                    <option value="himanchal">Himanchal</option>
+                    <option value="haryana">Haryana</option>
+                    <option value="jammu">Jammu</option>
+                    <option value="westbengal">WestBengal</option>
+                    <option value="arunachalpradesh">Arunachal Pradesh</option>
+                </select>
+
+            </fieldset>
+        </section>
+        <section id="education">
+            <fieldset>
+                <legend>Education</legend>
+                <label for="peducation">Previous Education :</label>
+                <Select name="peducation" id="peducation">
+                    <option>--Choose From Here--</option>
+                    <option value="highschool">High School</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="graduate">Graduate</option>
+                    <option value="postgraduate">Post Graduate</option>
+                    <option value="phd">PHD</option>
+                </Select>
+                <br>
+                <br>
+                <label for="pinstitute">Institute :</label>
+                <input type="text" id="pinstitute" placeholder="xyz institute">
+                <br>
+                <br>
+                <label for="achievment">Achievment :</label>
+                <textarea name="achievment" id="achievment" cols="25" rows="4"></textarea>
+                <br>
+                <br>
+                <label for="files">Upload Document: </label>
+                <input type="file" name="file" id="files">
+            </fieldset>
+
+        </section>
+        <br>
+        <input type="submit" value="Submit" id="button1">
+    </form>
+    <br>
+    <br>
+    <footer>Xavier Universities Of California &copy;2024, All rights reserved.</footer>
+</body>
+
+</html>
